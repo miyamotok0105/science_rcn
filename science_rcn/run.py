@@ -24,8 +24,8 @@ from functools import partial
 from scipy.misc import imresize
 from scipy.ndimage import imread
 
-from science_rcn.inference import test_image
-from science_rcn.learning import train_image
+from inference import test_image
+from learning import train_image
 
 LOG = logging.getLogger(__name__)
 

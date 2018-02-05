@@ -18,25 +18,18 @@ Clone the repository:
 git clone https://github.com/vicariousinc/science_rcn.git
 ```
 
-Simple Install:
-
-```
-cd science_rcn
-make
-```
-
-Manual Install (setting up a virtual environment beforehand is recommended):
-
-```
-cd science_rcn
-python setup.py install
-```
-
 ## Run
 
-If you installed via `make` you need to activate the virtual environment:
+To build dilation module. we can get "_dilation.so" module , the file to copy science_rcn/dilation from build folder.
 ```
-source venv/bin/activate
+python build_c.py build
+```
+
+Unzip mnist dataset.
+
+```
+cd data
+unzip MNIST.zip
 ```
 
 To run a small unit test that trains and tests on 20 MNIST images using one CPU (takes ~2 minutes, accuracy is ~60%):

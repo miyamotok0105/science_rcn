@@ -7,7 +7,7 @@ import numpy as np
 import networkx as nx
 from scipy.spatial import distance, cKDTree
 
-from science_rcn.preproc import Preproc
+from preproc import Preproc
 
 LOG = logging.getLogger(__name__)
 

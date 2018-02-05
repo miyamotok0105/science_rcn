@@ -12,8 +12,8 @@ import numpy as np
 import networkx as nx
 from numpy.random import rand, randint
 
-from science_rcn.dilation.dilation import dilate_2d
-from science_rcn.preproc import Preproc
+from dilation.dilation import dilate_2d
+from preproc import Preproc
 
 LOG = logging.getLogger(__name__)
 
